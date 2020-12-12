@@ -7,7 +7,19 @@ public class HomeWorkTwoLoopsTask2 {
         Scanner in = new Scanner(System.in);
         int number = 0;
 
-        number = in.nextInt();
+        while(1 == 1) {
+            number = in.nextInt();
+            if (number >= 32) {
+                System.out.println("Слишком большое число(Переполнение)");
+                System.out.println("Введите другое число :");
+            }
+            else if (number < 0) {
+                System.out.println("Введите положительное число :");
+            }
+            else {
+                break;
+            }
+        }
         System.out.println( recurs(number) );
     }
 

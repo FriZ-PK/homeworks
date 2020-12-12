@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class HomeWorkTwoLoopsTask4 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int number1 = 0;
+        Double number1 = 0.0;
         int number2 = 0;
-        int result = 0;
+        Double result = 0.0;
 
-        number1 = in.nextInt();
+        number1 = in.nextDouble();
         number2 = in.nextInt();
 
         for (int i = 0;i < number2 - 1;i++) {

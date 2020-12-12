@@ -82,7 +82,7 @@ public class HomeWorkTwoArraysTask2 {
         }
     }
 
-    public static void sumNumbers(int[] mass, int start, int end) {
+    public static void sumNumbers(int[] mass) {
         String number = null;
         int sum = 0;
         for (int i = 0;i < mass.length;i++) {
