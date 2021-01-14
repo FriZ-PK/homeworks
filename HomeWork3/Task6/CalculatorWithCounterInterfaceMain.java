@@ -1,7 +1,6 @@
 package HomeWork3.Task6;
 
 import HomeWork3.Task4.CalculatorWithMathExtends;
-import HomeWork3.Task5.CalculatorWithCounter;
 
 public class CalculatorWithCounterInterfaceMain {
     public static void main(String[] args) {

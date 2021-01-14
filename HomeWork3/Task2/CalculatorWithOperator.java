@@ -21,9 +21,9 @@ public class CalculatorWithOperator implements ICalculator {
     }
 
     public double exponentiation (double a, int b) {
-        double result = a;
+        double result = 1;
         if (a > 0) {
-            for (int i = 1;i < b;i++) {
+            for (int i = 0;i < b;i++) {
                 result = result * a;
             }
             return result;
